@@ -1,10 +1,12 @@
 import React from 'react';
 
-export default function AdminSettings() {
+const AdminSettings: React.FC = () => {
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-semibold mb-4">Admin Settings</h1>
-      <p className="text-sm text-muted-foreground">Settings UI coming soon.</p>
+    <div className="admin-settings">
+      <h1>Admin Settings</h1>
+      <p>This is a placeholder page for administrative settings.</p>
     </div>
   );
-}
+};
+
+export default AdminSettings;
