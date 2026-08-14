@@ -18,7 +18,6 @@ import AdminArticleEditor from '@/pages/admin/AdminArticleEditor';
 import AdminProjects from '@/pages/admin/AdminProjects';
 import AdminProjectEditor from '@/pages/admin/AdminProjectEditor';
 import AdminMessages from '@/pages/admin/AdminMessages';
-import AdminSettings from '@/pages/admin/AdminSettings';
 
 export default function App() {
   return (
@@ -47,7 +46,6 @@ export default function App() {
           <Route path="projects/new" element={<AdminProjectEditor />} />
           <Route path="projects/edit/:id" element={<AdminProjectEditor />} />
           <Route path="messages" element={<AdminMessages />} />
-          <Route path="settings" element={<AdminSettings />} />
         </Route>
       </Routes>
     </BrowserRouter>
