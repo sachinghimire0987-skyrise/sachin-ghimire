@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import SiteLayout from './src/layouts/SiteLayout';
-import ProtectedRoute from './src/routes/ProtectedRoute';
+import SiteLayout from '@/layouts/SiteLayout';
+import ProtectedRoute from '@/routes/ProtectedRoute';
 
 export default function App() {
   return (
