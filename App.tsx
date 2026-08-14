@@ -8,7 +8,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SiteLayout />}>
-          <Route index element={<div className="p-8">Welcome to Sachin Ghimire Site</div>} />
+          <Route index element={<div className="p-8 font-sans">Welcome to Sachin Ghimire Site</div>} />
         </Route>
       </Routes>
     </BrowserRouter>
