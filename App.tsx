@@ -7,8 +7,6 @@ import ProtectedRoute from '@/routes/ProtectedRoute';
 import Landing from '@/pages/Landing';
 import Projects from '@/pages/Projects';
 import Articles from '@/pages/Articles';
-import ArticleDetail from '@/pages/ArticleDetail';
-import ProjectDetail from '@/pages/ProjectDetail';
 import About from '@/pages/About';
 import Contact from '@/pages/Contact';
 
@@ -30,9 +28,7 @@ export default function App() {
         <Route path="/" element={<SiteLayout />}>
           <Route index element={<Landing />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="projects/:id" element={<ProjectDetail />} />
           <Route path="articles" element={<Articles />} />
-          <Route path="articles/:id" element={<ArticleDetail />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
         </Route>
