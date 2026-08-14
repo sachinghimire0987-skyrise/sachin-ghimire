@@ -4,7 +4,7 @@ import SiteLayout from '@/layouts/SiteLayout';
 import ProtectedRoute from '@/routes/ProtectedRoute';
 
 // Pages
-import Index from '@/pages/Index';
+import Landing from '@/pages/Landing';
 import Projects from '@/pages/Projects';
 import Articles from '@/pages/Articles';
 import ArticleDetail from '@/pages/ArticleDetail';
@@ -28,7 +28,7 @@ export default function App() {
       <Routes>
         {/* Public Routes */}
         <Route path="/" element={<SiteLayout />}>
-          <Route index element={<Index />} />
+          <Route index element={<Landing />} />
           <Route path="projects" element={<Projects />} />
           <Route path="projects/:id" element={<ProjectDetail />} />
           <Route path="articles" element={<Articles />} />
